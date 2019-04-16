@@ -59,5 +59,25 @@ h2{
   z-index:2;
 }
 
+.home{
+  background-color: #dc94dc8a; 
+  background-image: none;
+}
+.home img{
+  display: block;
+  padding:4%;
+}
+.home p{
+  max-width: 60%;
+  margin-left:20%;
+}
+.home li{
+  margin-left:30%;
+}
+.home h4{
+  margin-left: 30%;
+  font-size:3em;
+}
+
 
 
