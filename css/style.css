@@ -7,22 +7,13 @@ html {
 
 body { 
   margin:0;
-  padding:0;
   perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
   font-family: Nunito;
-  background-image: url(../img/benjamin-voros-575800-unsplash.jpg);
-  background-size: cover;
 }
 
 h1 {
    font-size: 5em;
    text-align: center;
-	
-   
 }
 
 h2{
@@ -33,13 +24,9 @@ h2{
 
 
 .slide {
-  position: relative;
   padding: 25vh 10%;
   min-height: 100vh;
-  width: 100vw;
   box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-  transform-style: inherit;
 }
 
 
@@ -56,7 +43,6 @@ h2{
 
 #title {
   background-image: url("../img/benjamin-voros-575800-unsplash.jpg");
-  z-index:2;
 }
 
 
