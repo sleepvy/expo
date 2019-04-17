@@ -29,6 +29,7 @@ AFRAME.registerComponent('markerhandler', {
                 Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
                 aEntity0.setAttribute('scale', scale);
                 inventory[0]=1;
+                colorBox0();
                 document.getElementById("test").innerHTML = "<a-text value = '1' id = 'test'>";
                 console.log(inventory);
                 checkInventory();
@@ -51,6 +52,7 @@ AFRAME.registerComponent('markerhandler', {
                 Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
                 aEntity1.setAttribute('scale', scale);
                 inventory[1]=1;
+                colorBox1();
                 console.log(inventory);
                 checkInventory();
             }
@@ -74,6 +76,7 @@ AFRAME.registerComponent('markerhandler', {
                 Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
                 aEntity2.setAttribute('scale', scale);
                 inventory[2]=1;
+                colorBox2();
                 console.log(inventory);
                 checkInventory();
             }
@@ -91,6 +94,7 @@ AFRAME.registerComponent('markerhandler', {
                 Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
                 aEntity3.setAttribute('scale', scale);
                 inventory[3]=1;
+                colorBox3();
                 console.log(inventory);
                 checkInventory();
             }
@@ -109,6 +113,7 @@ AFRAME.registerComponent('markerhandler', {
                 Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
                 aEntity4.setAttribute('scale', scale);
                 inventory[4]=1;
+                colorBox4();
                 console.log(inventory);
                 checkInventory();
             }
@@ -116,22 +121,22 @@ AFRAME.registerComponent('markerhandler', {
 }});
 
 
-function colorBox0(val) {
+function colorBox0() {
     document.getElementById("item1").style.backgroundColor = "black";
 }
 
-function colorBox1(val) {
+function colorBox1() {
     document.getElementById("item2").style.backgroundColor = "black";
 }
 
-function colorBox2(val) {
+function colorBox2() {
     document.getElementById("item3").style.backgroundColor = "black";
 }
 
-function colorBox3(val) {
+function colorBox3() {
     document.getElementById("item4").style.backgroundColor = "black";
 }
 
-function colorBox4(val) {
+function colorBox4() {
     document.getElementById("item5").style.backgroundColor = "black";
 }
