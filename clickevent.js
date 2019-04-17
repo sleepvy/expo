@@ -114,3 +114,24 @@ AFRAME.registerComponent('markerhandler', {
             }
         });
 }});
+
+
+function colorBox0(val) {
+    document.getElementById("item1").style.backgroundColor = "black";
+}
+
+function colorBox1(val) {
+    document.getElementById("item2").style.backgroundColor = "black";
+}
+
+function colorBox2(val) {
+    document.getElementById("item3").style.backgroundColor = "black";
+}
+
+function colorBox3(val) {
+    document.getElementById("item4").style.backgroundColor = "black";
+}
+
+function colorBox4(val) {
+    document.getElementById("item5").style.backgroundColor = "black";
+}
