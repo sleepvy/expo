@@ -45,7 +45,7 @@ h2{
   background-image: url("../img/benjamin-voros-575800-unsplash.jpg");
 }
 
-<<<<<<< HEAD
+
 @media screen and (max-width: 1172px){
 	.smolchart{
 		padding-top: 49%;
@@ -75,4 +75,51 @@ h2{
   text-align: center;
   font-size:3em;
 }
+
+
+
+
+
+
+
+/*
+h1 {
+   font-size: 5em;
+   text-align: center;
+   font-family: 'Bad Script', cursive;
+    font-size: 50px;
+}
+.home{
+  background-color: #dc94dc8a; 
+  background-image: none;
+}
+.home img{
+  display: block;
+  padding:4%;
+}
+.home p{
+  max-width: 60%;
+  margin-left:20%;
+}
+.home li{
+  margin-left:30%;
+}
+.home h4{
+  text-align: center;
+  font-size:3em;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+}
+.list > div {
+	border-color: black;
+	border-style: solid;
+	padding: 5px;
+	margin: 10px;
+	width: .5vw;
+
+}
+*/
 
