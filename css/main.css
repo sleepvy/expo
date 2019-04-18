@@ -61,14 +61,28 @@ li {
   font-family: 'Raleway', sans-serif;
 
 }
-button{
+a{
   width:20%;
   height: 10%;
   background-color: #AB1C21;
   color:#FFC3FF;
-  border-radius: 3%;
+  border-radius: 4%;
   margin-left: 35%;
   padding:3%;
   font-size: 2em;
   font-family: "Raleway" , sans-serif;
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color:#44234F;
+}
+a:hover{
+  color:#AB1C21;
+  background-color:#44234F; 
+}
+a:active{
+  color:#dc94dc8a;
 }
