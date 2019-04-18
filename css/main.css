@@ -1,6 +1,8 @@
 h1 {
    font-size: 5em;
    text-align: center;
+   font-family: 'Bad Script', cursive;
+    font-size: 50px;
 }
 .home{
   background-color: #dc94dc8a; 
