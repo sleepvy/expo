@@ -13,56 +13,98 @@
 
 
 <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+    <div class="list">
+        <!-- <p>A puddle of tears</p>
+        <p>A shot of coffee</p>
+        <p>An ounce of hope</p>
+        <p>One Ch(egg)</p>
+        <p>A dash of exhaustion</p> -->
+        <div id="item1"> </div>
+        <div id="item2"> </div>
+        <div id="item3"> </div>
+        <div id="item4"> </div>
+        <div id="item5"> </div>
+    </div>
+    <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' accepts-clicks>
 
+        <!--
         <a-camera>
-            <a-text value = "potion: ✓" id = "test" position="0 0 0">
+            <a-text value = "potion: ✓" id = "test" position="0 0 0"></a-text>
         </a-camera>
+-->
         <!-- Use assets to make the code look more beautiful :-)  -->
         <a-assets>
             <a-asset-item id="potion-obj" src="img/potion.obj"></a-asset-item>
             <a-asset-item id="potion-mtl" src="img/potion.mtl"></a-asset-item>
+            <a-asset-item id="coffee-obj" src="img/coffee.obj"></a-asset-item>
+            <a-asset-item id="coffee-mtl" src="img/coffee.mtl"></a-asset-item>
+            <a-asset-item id="egg-obj" src="img/egg.obj"></a-asset-item>
+            <a-asset-item id="egg-mtl" src="img/egg.mtl"></a-asset-item>
+            <a-asset-item id="salt(exhaustion)-obj" src="img/salt(exhaustion).obj"></a-asset-item>
+            <a-asset-item id="salt(exhaustion)-mtl" src="img/salt(exhaustion).mtl"></a-asset-item>
+            <a-asset-item id="shot(hope)-obj" src="img/shot(hope).obj"></a-asset-item>
+            <a-asset-item id="shot(hope)-mtl" src="img/shot(hope).mtl"></a-asset-item>
         </a-assets>
 
         <!-- Put your different markers here -->
 
         <!--Test Marker-->
-        <a-marker preset="hiro" markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker0">
-             <a-entity id="click0" obj-model="obj: #potion-obj; mtl: #potion-mtl" rotation="90 180 0" scale="12 12 12" > 
-             </a-entity>
+        <a-marker preset="hiro" emitevents="true" cursor="rayOrigin: mouse" id="animated-marker0">
+            <a-entity id="click0" obj-model="obj: #potion-obj; mtl: #potion-mtl" rotation="90 180 0" scale="12 12 12">
+            </a-entity>
         </a-marker>
-
-
-        <!--Test Marker using matrix marker -->
+        <!-- setting up the rest of the bar code object markers -->
+        
         <a-marker type='barcode' value='1' markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker1">
-            <a-box id = "click1" position='0 0.5 0' material='opacity: 0.5; side: double;color:pink;'>
-            </a-box>
+            <a-entity id="click1" obj-model="obj: #coffee-obj; mtl: #coffee-mtl" rotation="0 0 0" scale=".3 .3 .3" > 
+            </a-entity>
         </a-marker>
-
-
-        <!--Test Marker using matrix marker -->
+        
         <a-marker type='barcode' value='2' markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker2">
-            <a-box id = "click2" position='0 0.5 0' material='opacity: 0.5; side: double;color:blue;'>
-            </a-box>
+            <a-entity id="click2" obj-model="obj: #egg-obj; mtl: #egg-mtl" rotation="0 0 0" scale="1 1 1" > 
+            </a-entity>
         </a-marker>
-
+        
         <a-marker type='barcode' value='3' markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker3">
-            <a-box id = "click3" position='0 0.5 0' material='opacity: 0.5; side: double;color:green;'>
+            <a-entity id="click3" obj-model="obj: #salt(exhaustion)-obj; mtl: #salt(exhaustion)-mtl" rotation="0 0 0" scale="1 1 1" > 
+            </a-entity>
+        </a-marker>
+        
+        <a-marker type='barcode' value='4' markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker4">
+            <a-entity id="click4" obj-model="obj: #shot(hope)-obj; mtl: #shot(hope)-mtl" rotation="0 0 0" scale="1 1 1" > 
+            </a-entity>
+        </a-marker>
+
+
+
+        <!--    Tests with boxes-->
+<!--
+        <a-marker type='barcode' value='1' emitevents="true" cursor="rayOrigin: mouse" id="animated-marker1">
+            <a-box id="click1" position='0 0.5 0' material='opacity: 0.5; side: double;color:pink;'>
             </a-box>
         </a-marker>
 
-         <a-marker type='barcode' value='4' markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker4">
-            <a-box id = "click4" position='0 0.5 0' material='opacity: 0.5; side: double;color:yellow;'>
+        <a-marker type='barcode' value='2' emitevents="true" cursor="rayOrigin: mouse" id="animated-marker2">
+            <a-box id="click2" position='0 0.5 0' material='opacity: 0.5; side: double;color:blue;'>
             </a-box>
         </a-marker>
 
+        <a-marker type='barcode' value='3' emitevents="true" cursor="rayOrigin: mouse" id="animated-marker3">
+            <a-box id="click3" position='0 0.5 0' material='opacity: 0.5; side: double;color:green;'>
+            </a-box>
+        </a-marker>
 
+        <a-marker type='barcode' value='4' emitevents="true" cursor="rayOrigin: mouse" id="animated-marker4">
+            <a-box id="click4" position='0 0.5 0' material='opacity: 0.5; side: double;color:yellow;'>
+            </a-box>
+        </a-marker>
+-->
 
 
         <!-- This defines a camera -->
         <a-entity camera></a-entity>
     </a-scene>
-    <script src="clickevent.js"></script>
+    <script src="click2.js"></script>
 </body>
 
 </html>
