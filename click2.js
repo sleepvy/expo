@@ -1,6 +1,6 @@
 var inventory = [0, 0, 0, 0, 0];
 
-var items = ["A puddle of tears", "A cup of coffee", "An ounce of hope", "One Ch(egg)", "A dash of exhaustion"];
+var items = ["A puddle of tears", "A cup of coffee", "One Ch(egg)", "A dash of exhaustion", "An ounce of hope"];
 
 function checkInventory() {
     var finished = true;
