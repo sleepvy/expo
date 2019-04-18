@@ -32,6 +32,7 @@ function handleClickEvent() {
             colorBox(i);
             console.log(inventory);
             checkInventory();
+           
         }
     }
 }
