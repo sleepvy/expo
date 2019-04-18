@@ -36,3 +36,15 @@ h1 {
 	width: .5vw;
 
 }
+
+button{
+  width:20%;
+  height: 10%;
+  background-color: #AB1C21;
+  color:#FFC3FF;
+  border-radius: 3%;
+  margin-left: 35%;
+  padding:3%;
+  font-size: 2em;
+  font-family: "Raleway" , sans-serif;
+}
