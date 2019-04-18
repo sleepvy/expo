@@ -45,5 +45,12 @@ h2{
   background-image: url("../img/benjamin-voros-575800-unsplash.jpg");
 }
 
-
-
+@media screen and (max-width: 1172px){
+	.smolchart{
+		padding-top: 49%;
+	}
+	
+	.smolsentiment{
+		padding-top: 50%;
+	}
+}
