@@ -45,7 +45,7 @@ h2{
   background-image: url("../img/benjamin-voros-575800-unsplash.jpg");
 }
 
-<<<<<<< HEAD
+
 @media screen and (max-width: 1172px){
 	.smolchart{
 		padding-top: 49%;
@@ -55,7 +55,7 @@ h2{
 		padding-top: 50%;
 	}
 }
-=======
+
 .home{
   background-color: #dc94dc8a; 
   background-image: none;
@@ -77,9 +77,6 @@ h2{
 }
 
 
-
-
->>>>>>> 53c1aedc3b9527a6585c65e96c600afbe5f955ca
 
 
 
@@ -125,3 +122,4 @@ h1 {
 
 }
 */
+
