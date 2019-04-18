@@ -1,5 +1,7 @@
 var inventory = [0, 0, 0, 0, 0];
 
+var items = ["A puddle of tears", "A cup of coffee", "An ounce of hope", "One Ch(egg)", "A dash of exhaustion"];
+
 function checkInventory() {
     var finished = true;
     for (i = 0; i < 5; i++) {
@@ -25,9 +27,9 @@ function handleClickEvent() {
         var aEntity = document.querySelector("#click" + i);
 
         if (marker && marker.object3D.visible) {
-            const scale = aEntity.getAttribute('scale');
-            Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
-            aEntity.setAttribute('scale', scale);
+//            const scale = aEntity.getAttribute('scale');
+//            Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
+//            aEntity.setAttribute('scale', scale);
             inventory[i] = 1;
             colorBox(i);
             console.log(inventory);
@@ -38,4 +40,5 @@ function handleClickEvent() {
 
 function colorBox(i) {
     document.getElementById("item" + (i + 1)).style.backgroundColor = "black";
+    document.getElementById("text").innerHTML = items[i];
 }
