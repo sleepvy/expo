@@ -61,7 +61,7 @@ li {
   font-family: 'Raleway', sans-serif;
 
 }
-a{
+button{
   width:20%;
   height: 10%;
   background-color: #AB1C21;
@@ -95,17 +95,4 @@ a{
   margin-top: -19px;
   margin-left: -38px;
   text-decoration: none;
-}
-a:link{
-  text-decoration: none;
-}
-a:visited{
-  color:#44234F;
-}
-a:hover{
-  color:#AB1C21;
-  background-color:#44234F; 
-}
-a:active{
-  color:#dc94dc8a;
 }
