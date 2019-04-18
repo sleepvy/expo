@@ -27,8 +27,7 @@
     </div>
     
     <div id="text"><p>Test</p></div>
-    
-    <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;' accepts-clicks>
+    <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;' accepts-clicks>
 
         <!--
         <a-camera>
@@ -68,7 +67,6 @@
         <a-marker type='barcode' value='2' markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker2">
 
             <a-entity id="click2" obj-model="obj: #egg-obj; mtl: #egg-mtl" rotation="0 0 0" scale=".05 .05 .05" >
-
             </a-entity>
         </a-marker>
         
