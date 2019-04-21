@@ -11,6 +11,7 @@ function checkInventory() {
     }
     if (finished) {
         console.log("You Finished!");
+        window.location.href = "https://creative.colorado.edu/~vyle7651/expo/endingpage.html";
     }
 }
 
