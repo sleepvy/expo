@@ -1,9 +1,13 @@
 # Project Title: Storm A Brewin' AR Game 
 ## KIVAS Expo Project
 Kyle Faucher
+
 Ian Kresyman
+
 Vy Le
+
 Ally Faller
+
 Sophie Foster
 
 ### Introduction
