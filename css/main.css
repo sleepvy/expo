@@ -28,14 +28,23 @@ h1 {
 .list {
 	display: flex;
 	justify-content: center;
+    background-color: white;
+    width: 100%;
+    
 }
 .list > div {
 	border-color: black;
 	border-style: solid;
 	padding: 5px;
 	margin: 10px;
-	width: .5vw;
+}
+#item1, #item2, #item3, #item4, #item5 {
+    height: 10px;
+    
+}
 
+#text {
+    border-style: none;
 }
 
 #homepad {
