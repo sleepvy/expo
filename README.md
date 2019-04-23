@@ -1,5 +1,11 @@
 # Project Title: Storm A Brewin' AR Game 
 ## KIVAS Expo Project
+Kyle Faucher
+Ian Kresyman
+Vy Le
+Ally Faller
+Sophie Foster
+
 ### Introduction
 An augmented reality "treasure hunt" game built using A-Frame and AR.js. Help the friendly witch brew up a potion to pass her finals! Search for hidden markers/ingredients and tap the screen to collect the item on each marker.
 
