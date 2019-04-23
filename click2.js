@@ -1,5 +1,7 @@
 var inventory = [0, 0, 0, 0, 0];
 
+var sound = new Audio("founditem.mp3");
+
 var items = ["A puddle of tears", "A cup of coffee", "One Ch(egg)", "A dash of exhaustion", "An ounce of hope"];
 
 function checkInventory() {
@@ -32,9 +34,11 @@ function handleClickEvent() {
 //            Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
 //            aEntity.setAttribute('scale', scale);
             inventory[i] = 1;
+            sound.play();
             colorBox(i);
             console.log(inventory);
             checkInventory();
+           
         }
     }
 }

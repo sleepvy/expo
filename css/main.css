@@ -33,11 +33,15 @@ h1 {
 
 .list {
 	display: flex;
+  max-width: 100%;
 	justify-content: center;
     background-color: white;
     width: 100%;
+  font-family: "Special Elite";
     
 }
+
+
 .list > div {
 	border-color: black;
 	border-style: solid;
