@@ -1,8 +1,14 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-   font-size: 5em;
    text-align: center;
    font-family: 'Bad Script', cursive;
-    font-size: 50px;
+    font-size: 4em;
     color:#b4b3b3;
 }
 .home{
@@ -50,19 +56,17 @@ h1 {
 #homepad {
   background-color: #44234F;
   border-radius: 3px;
-  /*padding:5px;*/
-  padding-left: 2%;
-  padding-right: 2%;
-/*  width: 55%;
-*/}
+  padding: 3%;
+}
 
 #text {
-   color:#b4b3b3;
-   font-size: 25px;
+   color: #ffffff
+   font-size: 2em;
 }
 #container {
   text-align: center;
   margin: 0;
+  padding-bottom: 2em;
 }
 h4 {
   font-family: 'Raleway', sans-serif;
@@ -79,7 +83,7 @@ button{
   width:20%;
   height: 10%;
   background-color: #AB1C21;
-  color:#FFC3FF;
+  color: #ffffff;
   border-radius: 4%;
   margin-left: 35%;
   padding:3%;
@@ -113,4 +117,8 @@ button{
 
 img {
   width: 40%;
+}
+
+.cont2 {
+  padding: 50px;
 }
