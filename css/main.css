@@ -67,6 +67,13 @@ h1 {
    color: #ffffff;
    font-size: 2em;
 }
+
+#text2 {
+   color: #AB1C21;
+   font-size: 18px;
+  border-style: none;
+}
+
 #container {
   text-align: center;
   margin: 0;

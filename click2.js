@@ -45,5 +45,5 @@ function handleClickEvent() {
 
 function colorBox(i) {
     document.getElementById("item" + (i + 1)).style.backgroundColor = "black";
-    document.getElementById("text").innerHTML = items[i];
+    document.getElementById("text2").innerHTML = items[i];
 }
