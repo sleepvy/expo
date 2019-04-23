@@ -1,7 +1,7 @@
 var statements = [
-	"Welcome to Storm a Brewin'.",
-	"You were wandering in the wicked woods of the ATLAS building, and stumbled upon me. I need your help to ace my exams! ",
-	"You need to collect: a puddle of tears, a shot of coffee, an ounce of hope, one Ch(egg), and a dash of exhaustion.",
+	"You were wandering in the wicked woods of the ATLAS building, and stumbled upon me. I need your help to ace my exams!",
+	"Please collect: a puddle of tears, a shot of coffee, an ounce of hope, one Ch(egg), and a dash of exhaustion.",
+	"To collect an item, tap the screen. Remember don't refresh the page, or you'll lose your progress!",
 	"Ready to get started?",
 	"Ready to get started?"
  ]
