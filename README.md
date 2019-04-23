@@ -1,18 +1,26 @@
-# Project Title: KIVAS ATLS Expo AR Game 
-## other title here
-### Motivation
-This project is an attempt to use A-Frame and javascript in an AR game. We created this project as part of our Creative Dev Tools class and to present at our school's expo. 
-
-### Build Status
-
-### Code Style
-A-Frame, general HTML, general js
+# Project Title: Storm A Brewin' AR Game 
+## KIVAS Expo Project
+### Introduction
+An augmented reality "treasure hunt" game built using A-Frame and AR.js. Help the friendly witch brew up a potion to pass her finals! Search for hidden markers/ingredients and tap the screen to collect the item on each marker.
 
 ### Tech/Frameworks
-A-Frame, 
-
-### Code Example 
-
+A-Frame, AR.js, HTML, CSS, Javascript
 
 ### How to Use it?
-To use this game, print out QR codes 1-5 from an online QR generator [link here]. 
+Talk to the witch on [the homepage](https://creative.colorado.edu/~vyle7651/dev/expo/home.html). From there, start the search for the ingredients she asked for. On the [AR site](https://creative.colorado.edu/~vyle7651/dev/expo/), place the markers you find in the frame and tap the screen to collect the item. To play this game at home, markers are found in the [markers.pdf file] (https://github.com/sleepvy/expo/blob/master/markers.pdf) and can be printed out and hidden around a room. This game uses matrix markers 0-4.
+
+
+You've won the game when you've collected all the markers. You can view your status by looking at the bar at the top of the screen.
+
+### 3D Models
+Thank you to the following people for their 3D models:
+
+[Alina Christenbury's Potion](https://poly.google.com/view/2AqUpWKwlUy)
+
+[Poly by Google's Coffee] (https://poly.google.com/view/1HpVP5w2x1D)
+
+[Poly by Google's Shot Glass](https://poly.google.com/view/epCXNZcP5gR)
+
+[Poly by Google's Egg] (https://poly.google.com/view/19zzCKhf6T7)
+
+[Poly by Google's Salt Shaker] (https://poly.google.com/view/d7n1Dx-y1R1)
