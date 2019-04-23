@@ -55,6 +55,11 @@ h1 {
   padding-right: 2%;
 /*  width: 55%;
 */}
+
+#text {
+   color:#b4b3b3;
+   font-size: 25px;
+}
 #container {
   text-align: center;
   margin: 0;
@@ -84,7 +89,7 @@ button{
 
 #bubble {
   position: relative;
-  background: #00aabb;
+  background: #AB1C21;
   padding: 1em;
   left: 40%;
   width: 50%;
@@ -98,10 +103,14 @@ button{
   width: 0;
   height: 0;
   border: 38px solid transparent;
-  border-right-color: #00aabb;
+  border-right-color: #AB1C21;
   border-left: 0;
   border-bottom: 0;
   margin-top: -19px;
   margin-left: -38px;
   text-decoration: none;
+}
+
+img {
+  width: 40%;
 }
